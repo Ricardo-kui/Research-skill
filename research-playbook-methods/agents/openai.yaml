@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Playbook"
+  short_description: "Routes research tasks to playbook modules."
+  default_prompt: "Use $research-playbook-methods to guide this business-school research task with the right playbook modules."

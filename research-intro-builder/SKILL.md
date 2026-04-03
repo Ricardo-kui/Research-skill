@@ -1,6 +1,6 @@
 ---
 name: research-intro-builder
-description: Build and rewrite introductions for business-school research papers inside D:\Codex\Business_Research_Vault. Use when Codex needs to sharpen an opening hook, improve the first paragraph, structure a full introduction, turn a weak gap into a stronger puzzle, frame what-do-we-learn claims, or rewrite an introduction so it works as a focused mini-summary for a journal-facing paper.
+description: Build and rewrite introductions for business-school research papers. Use when Codex needs to sharpen an opening hook, improve the first paragraph, structure a full introduction, turn a weak gap into a stronger puzzle, frame what-do-we-learn claims, or rewrite an introduction so it works as a focused mini-summary for a journal-facing paper.
 ---
 
 # Research Intro Builder
@@ -13,21 +13,21 @@ Use this skill for introduction-specific work. It should turn vague front-end fr
 
 Start with these files and load only what the task needs:
 
-- `D:\Codex\Business_Research_Vault\4_Learning\Research_Playbook_Methods\Introduction_Hooks_Openings_and_First_Paragraph_Playbook.md`
-- `D:\Codex\Business_Research_Vault\4_Learning\Research_Playbook_Methods\Introduction_Architecture_and_Mini_Summary_Playbook.md`
+- `./references/playbooks/Introduction_Hooks_Openings_and_First_Paragraph_Playbook.md`
+- `./references/playbooks/Introduction_Architecture_and_Mini_Summary_Playbook.md`
 
 Load these when needed:
 
-- `Research_Puzzle_and_Problematization_Playbook.md`
-- `Literature_Review_Synthesis_and_Intertextual_Coherence_Playbook.md`
-- `Theoretical_Contribution_Framing_and_Claim_Strategy_Playbook.md`
-- `Argument_Structure_and_Key_Line_Playbook.md`
-- `Paper_Writing_and_Section_Design_Playbook.md`
-- `D:\Codex\Business_Research_Vault\.agents\skills\research-intro-builder\references\standard-input-template.md`
+- `./references/playbooks/Research_Puzzle_and_Problematization_Playbook.md`
+- `./references/playbooks/Literature_Review_Synthesis_and_Intertextual_Coherence_Playbook.md`
+- `./references/playbooks/Theoretical_Contribution_Framing_and_Claim_Strategy_Playbook.md`
+- `./references/playbooks/Argument_Structure_and_Key_Line_Playbook.md`
+- `./references/playbooks/Paper_Writing_and_Section_Design_Playbook.md`
+- `./references/standard-input-template.md`
 
 ## Default Workflow
 
-1. Read `D:\Codex\Business_Research_Vault\AGENTS.md`.
+1. Read the local workspace guidance if one exists.
 2. Read the two core files above.
 3. Diagnose whether the main problem is:
    - weak opening
@@ -41,7 +41,7 @@ Load these when needed:
 
 If the request is underspecified, normalize it using:
 
-- `D:\Codex\Business_Research_Vault\.agents\skills\research-intro-builder\references\standard-input-template.md`
+- `./references/standard-input-template.md`
 
 Infer missing fields when reasonable, but state the assumptions if they materially affect the rewrite.
 

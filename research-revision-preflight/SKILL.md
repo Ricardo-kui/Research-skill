@@ -1,6 +1,6 @@
 ---
 name: research-revision-preflight
-description: Run preflight checks, desk-review diagnostics, discussion rewrites, and revision support for business-school research papers inside D:\Codex\Business_Research_Vault. Use when Codex needs to review a draft before submission, explain why a paper feels desk-rejectable, prepare a revision strategy, draft response-letter material, strengthen the discussion section, or triage reviewer comments into contribution, execution, and presentation issues.
+description: Run preflight checks, desk-review diagnostics, discussion rewrites, and revision support for business-school research papers. Use when Codex needs to review a draft before submission, explain why a paper feels desk-rejectable, prepare a revision strategy, draft response-letter material, strengthen the discussion section, or triage reviewer comments into contribution, execution, and presentation issues.
 ---
 
 # Research Revision Preflight
@@ -13,21 +13,21 @@ Use this skill for late-stage draft assessment and revision work. It should iden
 
 Start with these files and load only what the task needs:
 
-- `D:\Codex\Business_Research_Vault\4_Learning\Research_Playbook_Methods\Desk_Reject_and_Review_Heuristics_Playbook.md`
-- `D:\Codex\Business_Research_Vault\4_Learning\Research_Playbook_Methods\Revision_Reviewer_Response_and_Editor_Communication_Playbook.md`
+- `./references/playbooks/Desk_Reject_and_Review_Heuristics_Playbook.md`
+- `./references/playbooks/Revision_Reviewer_Response_and_Editor_Communication_Playbook.md`
 
 Load these when needed:
 
-- `Discussion_Practical_Implications_and_Endgame_Playbook.md`
-- `Empirical_Results_Interpretation_and_Robustness_Playbook.md`
-- `Paper_Writing_and_Section_Design_Playbook.md`
-- `Professor_One_Page_Research_Checklist_EN_Preflight.md`
-- `Professor_One_Page_Research_Checklist.md`
-- `D:\Codex\Business_Research_Vault\.agents\skills\research-revision-preflight\references\standard-input-template.md`
+- `./references/playbooks/Discussion_Practical_Implications_and_Endgame_Playbook.md`
+- `./references/playbooks/Empirical_Results_Interpretation_and_Robustness_Playbook.md`
+- `./references/playbooks/Paper_Writing_and_Section_Design_Playbook.md`
+- `./references/playbooks/Professor_One_Page_Research_Checklist_EN_Preflight.md`
+- `./references/playbooks/Professor_One_Page_Research_Checklist.md`
+- `./references/standard-input-template.md`
 
 ## Default Workflow
 
-1. Read `D:\Codex\Business_Research_Vault\AGENTS.md`.
+1. Read the local workspace guidance if one exists.
 2. Read the two core files above.
 3. Classify the draft's problems into:
    - contribution
@@ -40,7 +40,7 @@ Load these when needed:
 
 If the request is underspecified, normalize it using:
 
-- `D:\Codex\Business_Research_Vault\.agents\skills\research-revision-preflight\references\standard-input-template.md`
+- `./references/standard-input-template.md`
 
 Infer missing fields when reasonable, but state the assumptions if they materially affect the review or revision diagnosis.
 
