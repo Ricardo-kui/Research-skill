@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Revision"
+  short_description: "Runs preflight, review, and revision support."
+  default_prompt: "Use $research-revision-preflight to run preflight checks or draft a revision strategy for this paper."

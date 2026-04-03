@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Theory"
+  short_description: "Builds theory logic and hypothesis chains."
+  default_prompt: "Use $research-theory-builder to strengthen theory logic and hypothesis development for this research task."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Intro"
+  short_description: "Builds and rewrites scholarly introductions."
+  default_prompt: "Use $research-intro-builder to design or rewrite the introduction for this research project."
