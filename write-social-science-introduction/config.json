@@ -1,0 +1,22 @@
+{
+  "user": {
+    "target_journals": ["AMJ", "ASQ", "SMJ", "Organization Science", "JOM"],
+    "manuscript_language": "Chinese diagnosis, manuscript-facing prose in the manuscript language",
+    "field": "management / strategy / organization / operations",
+    "preferred_citation_style": "APA inline",
+    "opening_preference": "concrete facts, institutional change, or theoretical tension over generic time-marker openings",
+    "default_intro_modes": {
+      "ASQ": "theory-tension",
+      "Organization Science": "theory-tension",
+      "AMJ": "empirical-contribution",
+      "SMJ": "empirical-contribution",
+      "JOM": "empirical-contribution"
+    }
+  },
+  "skill": {
+    "primary_reference": "references/paragraph-pyramid-structure.md",
+    "gotchas_file": "assets/gotchas.md",
+    "session_log": "assets/session-log.md",
+    "note": "Load only the stage-specific and mode-specific references needed for the current task."
+  }
+}

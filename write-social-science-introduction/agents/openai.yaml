@@ -1,0 +1,4 @@
+interface:
+  display_name: "Social-Science Intro Funnel"
+  short_description: "Draft intro prose with a stage funnel and paragraph analysis"
+  default_prompt: "Use $write-social-science-introduction to draft or revise a full introduction, hook, gap, contribution paragraph, roadmap, or exemplar paragraph logic with the right outlet mode."
