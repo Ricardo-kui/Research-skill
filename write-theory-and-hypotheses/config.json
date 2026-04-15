@@ -1,0 +1,16 @@
+{
+  "user": {
+    "target_journals": ["AMJ", "ASQ", "SMJ", "JOM", "OS", "JAP"],
+    "manuscript_language": "Chinese drafts, English final",
+    "field": "management / organizational behavior",
+    "preferred_citation_style": "APA inline",
+    "theory_style_preference": "tight single mechanism chain over multi-stream",
+    "dv_types_in_active_projects": ["time-to-event", "count", "binary", "continuous"],
+    "analysis_tools": ["Stata", "Python"]
+  },
+  "skill": {
+    "gotchas_file": "assets/gotchas.md",
+    "session_log": "assets/session-log.md",
+    "note": "Gotchas file is empty — fill it with real cases encountered during revision before relying on it."
+  }
+}

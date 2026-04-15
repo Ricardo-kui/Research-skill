@@ -1,0 +1,15 @@
+{
+  "user": {
+    "target_journals": ["AMJ", "ASQ", "SMJ", "JOM", "OS", "JAP"],
+    "manuscript_language": "Chinese drafts, English final",
+    "field": "management / organizational behavior",
+    "preferred_citation_style": "APA inline",
+    "contribution_style": "prefer filling-gap or exposing-inadequacy framing over extension framing",
+    "analysis_tools": ["Stata", "Python"]
+  },
+  "skill": {
+    "gotchas_file": "assets/gotchas.md",
+    "session_log": "assets/session-log.md",
+    "note": "Gotchas file is empty — fill it with real cases encountered during revision before relying on it."
+  }
+}
